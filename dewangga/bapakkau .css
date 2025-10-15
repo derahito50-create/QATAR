@@ -1,0 +1,42 @@
+.BOX
+{
+    width: 400PX;
+    height: 400px;
+    background-color: aquamarine;
+    border: 10PX, BLACK solid;
+    font-size: 200px;
+    text-align: center;
+    animation-name: identifier-box;
+    animation-duration: 2s;
+
+    
+}
+
+
+
+@keyframes identifier-box {
+    from {
+          opacity: 0;
+    }
+    to   {
+          opacity: 1;
+    }
+}
+
+.header{
+    opacity: 0;
+    animation: fadein 2s ease-in-out 0.5s infinite alternate;
+}
+
+.animation-box{
+    width: 150px;
+    height: 150px;
+    margin: 50px auto;
+    line-height: 150px;
+    background-color: aquamarine;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+}
+
